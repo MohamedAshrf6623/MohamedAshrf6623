@@ -1,47 +1,58 @@
 <h1 align="center">Hi 👋, I'm Mohamed Ashraf</h1>
 
 <p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?lines=Backend+Developer;Node.js+Engineer;Always+Learning...&center=true&width=500&height=50" />
+</p>
+
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=MohamedAshrf6623&label=Profile%20views&color=0e75b6&style=flat" />
 </p>
 
-<h3 align="center">Backend Developer | .NET & Problem Solving Enthusiast</h3>
+<h3 align="center">Backend Developer | Node.js & .NET</h3>
 
 <p align="center">
-  From Egypt 🇪🇬 | Passionate about building scalable systems and clean architectures
+  From Egypt 🇪🇬 | Building scalable backend systems & APIs
+</p>
+
+---
+
+## 🛠️ Tech Stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,js,ts,cs,dotnet,python,cpp,git,github" />
 </p>
 
 ---
 
 ## 🚀 About Me
-- 💻 Backend Developer specialized in **.NET & ASP.NET Core**
-- 🧠 Strong foundation in **Data Structures & Algorithms**
-- 🔍 Interested in **Search Engines, AI & System Design**
-- ⚙️ Love building real-world scalable applications
-
----
-
-## 🛠️ Tech Stack
-- **Languages:** C++, C#, Python, JavaScript  
-- **Backend:** ASP.NET Core, Node.js  
-- **Database:** SQL Server, MongoDB  
-- **Tools:** Git, GitHub  
+- 💻 Backend Developer focused on **Node.js & Express**
+- ⚙️ Experience with **.NET & ASP.NET Core**
+- 🧠 Strong in **Problem Solving & Data Structures**
+- 🔍 Interested in **System Design & Scalable Architectures**
 
 ---
 
 ## 💼 Featured Projects
 
+### 🌍 Natours Platform (Main Project 🔥)
+Full-stack tour booking system using **Node.js, Express, MongoDB**  
+Includes authentication, booking system, reviews, and Stripe integration.
+
+---
+
 ### 🔥 Nexus-Engine
 A full search engine built from scratch including web crawler, indexing, and ranking (TF-IDF, PageRank).  
-Supports fuzzy search and boolean queries.
+Supports fuzzy and boolean search.
 
-### 🌍 Natours Platform
-Full-stack tour booking system using Node.js, Express, and MongoDB with authentication and payment integration.
+---
 
 ### 🏢 Corporate Website
-ASP.NET system for managing employees, departments, and courses with full CRUD functionality.
+ASP.NET system for managing employees, departments, and courses with full CRUD operations.
+
+---
 
 ### 🔐 Authentication System
-Secure authentication system built with Python.
+Authentication system built with Python for secure login and user management.
 
 ---
 
