@@ -54,14 +54,6 @@ ASP.NET system for managing employees, departments, and courses with full CRUD o
 ### 🔐 Authentication System
 Authentication system built with Python for secure login and user management.
 
----
-
-## 📈 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MohamedAshrf6623&show_icons=true&theme=tokyonight&cache_seconds=1800&v=1" />
-</p>
-
----
 
 ## 🐍 Contribution Snake
 
