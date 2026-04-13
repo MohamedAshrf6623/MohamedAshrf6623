@@ -1,34 +1,56 @@
-name: Generate Snake
+name: generate animation
 
 on:
   schedule:
-    - cron: "0 0 * * *"
+    - cron: "0 0 * * *" 
+    - cron: "0 12 * * *"
+  # allows to manually run the job at any time
   workflow_dispatch:
+  
+  push:
+    branches:
+    - main
 
 permissions:
   contents: write
 
 jobs:
-  build:
+  generate:
+    continue-on-error: true
     runs-on: ubuntu-latest
-
+    timeout-minutes: 10
+    
     steps:
-      - uses: actions/checkout@v3
+      - name: checkout
+        uses: actions/checkout@v6.0.2
 
-      - uses: Platane/snk@v3
+      - name: generate github-contribution-grid-snake.svg
+        uses: Platane/snk@v3
         with:
-          github_user_name: MohamedAshrf6623
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+          github_user_name: ${{ github.repository_owner }}
 
-      - name: Push to output branch
+          # list of files to generate.
+          # one file per line. Each output can be customized with options as query string.
+          #
+          #  supported options:
+          #  - palette:           A preset of color, one of [github, github-dark, github-light]
+          #  - color_snake:       Color of the snake
+          #  - color_dots:        Coma separated list of dots color.
+          #                       The first one is 0 contribution, then it goes from the low contribution to the highest.
+          #                       Exactly 5 colors are expected.
+          #  - color_background:  Color of the background (for gif only)
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&color_background=#aaaaaa
+
+      - name: Configure Git
         run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@github.com"
-          git checkout --orphan output
-          git rm -rf .
-          cp -r dist/* .
-          git add .
-          git commit -m "update snake" || exit 0
-          git push origin output --force
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
+      - name: Commit and push
+        run: |
+          git add dist/github-snake*.svg dist/ocean.gif
+          git commit -m "docs: update contribution snake animation"
+          git push -u origin main
