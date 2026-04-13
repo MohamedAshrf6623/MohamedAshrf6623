@@ -58,16 +58,18 @@ Authentication system built with Python for secure login and user management.
 
 ## 📈 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MohamedAshrf6623&show_icons=true&theme=radical" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MohamedAshrf6623&show_icons=true&theme=tokyonight&cache_seconds=1800" />
 </p>
 
 ---
 
 ## 🐍 Contribution Snake
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/MohamedAshrf6623/MohamedAshrf6623/output/github-contribution-grid-snake-dark.svg" />
 </p>
+
+---
+
 ## 📫 Contact Me
 - 📧 Email: mohamed.ashraf.w12345@gmail.com  
 - 💼 LinkedIn: https://www.linkedin.com/in/mohamed-ashraf-9b770727a/
