@@ -58,7 +58,7 @@ Authentication system built with Python for secure login and user management.
 
 ## 📈 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MohamedAshrf6623&show_icons=true&theme=radical" />
+  <img src="https://raw.githubusercontent.com/username/repo/output/file.svg" />
 </p>
 
 ---
