@@ -62,6 +62,9 @@ Authentication system built with Python for secure login and user management.
 </p>
 
 ---
+## 🐍 Contribution Snake
+
+![snake](https://github.com/MohamedAshrf6623/MohamedAshrf6623/blob/output/github-contribution-grid-snake.svg)
 
 ## 📫 Contact Me
 - 📧 Email: mohamed.ashraf.w12345@gmail.com  
