@@ -64,9 +64,15 @@ Authentication system built with Python for secure login and user management.
 ---
 
 ## 🐍 Contribution Snake
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MohamedAshrf6623/MohamedAshrf6623/output/github-contribution-grid-snake-dark.svg?v=1" />
-</p>
+
+<div align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dist/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="dist/github-snake.svg" />
+  <img alt="github-snake" src="dist/github-snake.svg" />
+</picture>
+</div>
+
 
 ---
 
